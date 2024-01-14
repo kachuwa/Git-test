@@ -14,6 +14,7 @@
 		1C76C8FF2B52CCFA007DA0A2 /* Git_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76C8FE2B52CCFA007DA0A2 /* Git_testTests.swift */; };
 		1C76C9092B52CCFA007DA0A2 /* Git_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76C9082B52CCFA007DA0A2 /* Git_testUITests.swift */; };
 		1C76C90B2B52CCFA007DA0A2 /* Git_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76C90A2B52CCFA007DA0A2 /* Git_testUITestsLaunchTests.swift */; };
+		1C76C9182B537248007DA0A2 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C76C9172B537248007DA0A2 /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1C76C9042B52CCFA007DA0A2 /* Git testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C76C9082B52CCFA007DA0A2 /* Git_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_testUITests.swift; sourceTree = "<group>"; };
 		1C76C90A2B52CCFA007DA0A2 /* Git_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C76C9172B537248007DA0A2 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		1C76C8E12B52CCF9007DA0A2 = {
 			isa = PBXGroup;
 			children = (
+				1C76C9172B537248007DA0A2 /* ModalView.swift */,
 				1C76C8EC2B52CCF9007DA0A2 /* Git test */,
 				1C76C8FD2B52CCFA007DA0A2 /* Git testTests */,
 				1C76C9072B52CCFA007DA0A2 /* Git testUITests */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C76C9182B537248007DA0A2 /* ModalView.swift in Sources */,
 				1C76C8F02B52CCF9007DA0A2 /* ContentView.swift in Sources */,
 				1C76C8EE2B52CCF9007DA0A2 /* Git_testApp.swift in Sources */,
 			);
