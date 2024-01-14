@@ -16,7 +16,7 @@ struct ContentView: View {
             }.sheet(isPresented: $isPresented){
                 ModalView()
             }
-            .navigationTitle("Xcode and Git")
+            .navigationTitle("Xcode and Gitz")
         }
         .padding()
     }
